@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ssm_practice</groupId>
+    <artifactId>ssm_practice01</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>day01_jdbc</module>
+        <module>day01_factory</module>
+        <module>day01_03spring</module>
+        <module>day01_04bean</module>
+        <module>day01_05DI</module>
+        <module>day02_01anno_ioc</module>
+        <module>day02_02account_xmlioc</module>
+        <module>day02_03account_annoIoc</module>
+        <module>day02_04account_annoioc_withourxml</module>
+        <module>day03_01account</module>
+        <module>day03_02proxy</module>
+        <module>day03_03springAOP</module>
+        <module>day03_04adviceType</module>
+        <module>day03_05annotationAOP</module>
+        <module>day04_01jdbctemplate</module>
+        <module>day04_02account_aoptx_xml</module>
+        <module>day04_03account_aoptx_anno</module>
+        <module>day04_04tx</module>
+        <module>day04_05tx_xml</module>
+        <module>day04_06tx_anno</module>
+        <module>day04_07anno_tx_withoutxml</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.0.2.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+</project>
